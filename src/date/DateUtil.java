@@ -6,6 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
+ * 常用日期操作
  * Created by Roc on 2019/6/11
  */
 public class DateUtil {
@@ -266,7 +267,7 @@ public class DateUtil {
         calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
         return calendar.getTime();
     }
-    
+
     /**
      * 获取起始时间的小时差
      *
